@@ -1,4 +1,9 @@
+body{
+    background-color: rgb(252, 236, 255);
+    color: rgb(33, 2, 25);    
+    font-size: 30px;
+    font-weight: normal;
+}
 div.title{
-    background-color: rgb(252, 236, 255);    
     color:rgb(77, 162, 236)
 }
