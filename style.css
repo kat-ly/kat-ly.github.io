@@ -6,4 +6,8 @@ body{
 }
 div.title{
     color:rgb(77, 162, 236)
+        font-size: 47px;
+        text-align: center;
+        font-family: 'Arial narrow';
+    }
 }
