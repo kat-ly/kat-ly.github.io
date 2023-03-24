@@ -1,13 +1,24 @@
 body{
-    background-color: rgb(252, 236, 255);
+    background-color: rgb(44, 21, 103);
     color: rgb(33, 2, 25);    
     font-size: 30px;
     font-weight: normal;
 }
+div.details{
+    color:rgb(255, 255, 255);
+        font-size: 15px;    
+        font-family: 'helvetica'; 
+}
+
 div.title{
-    color:rgb(77, 162, 236)
+    color:rgb(255, 255, 255);
         font-size: 47px;
         text-align: center;
-        font-family: 'Arial narrow';
+        font-family: 'helvetica'; 
     }
-}
+
+    div.text {
+        font-family:Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(244, 240, 255)
+    }
