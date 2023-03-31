@@ -1,24 +1,44 @@
 body{
-    background-color: rgb(44, 21, 103);
+    background-color: #f0f4ff;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(33, 2, 25);    
     font-size: 30px;
     font-weight: normal;
 }
+
+
+
 div.details{
     color:rgb(255, 255, 255);
-        font-size: 15px;    
-        font-family: 'helvetica'; 
+    font-size: 15px;    
+    font-family: 'helvetica'; 
 }
 
 div.title{
-    color:rgb(255, 255, 255);
-        font-size: 47px;
+    font-family: "mud";
+        font-size: 70px;
         text-align: center;
-        font-family: 'helvetica'; 
     }
 
-    div.text {
-        font-family:Helvetica, sans-serif;
-        font-size: 20px;
-        color: rgb(244, 240, 255)
+div.text {
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(244, 240, 255)
     }
+
+
+
+
+    
+    h1{ font-family: "mud";
+        font-size: 70px;
+        text-align: center;
+    }
+    h2{ font-family: "blob";
+        font-size: 25px;
+        text-align: center;
+    }
+    h3{ font-family: "squarevetica";
+        font-size: 28px;
+        text-align:justify center;
+    }    
