@@ -140,9 +140,9 @@
           Edit size, position, texture and animation here -->
 
         <a-box 
-        width="4"
-        height="4"
-        depth="4"
+        width="2.5"
+        height="2.5"
+        depth="1"
         position="0 0 0" 
         rotation="0 0 0"               
         src="yinyang.png"
@@ -160,6 +160,17 @@
         loop:true"               
         >                 
         </a-box>
+
+        <a-box 
+
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+  </a-box>  
 
         <a-sphere
         radius="1.2"
