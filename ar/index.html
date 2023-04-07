@@ -141,7 +141,7 @@
 
         <a-box
         width="2"
-        height="0.4"
+        height="0.01"
         depth="2"
         position="0 00 0" 
         rotation="0 0 0"               
@@ -164,7 +164,7 @@
 
         <a-torus 
         
-        radius= "1"
+        radius= "1.5"
         width="1"
         height="1"
         depth="1"
@@ -174,7 +174,15 @@
         alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
-        roughness="0.0"                  
+        roughness="0.0"   
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                     
             
         >                 
         </a-torus>
