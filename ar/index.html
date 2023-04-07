@@ -140,9 +140,9 @@
           Edit size, position, texture and animation here -->
 
         <a-box
-        width="5"
-        height="3.5"
-        depth="0.2"
+        width="4"
+        height="0.4"
+        depth="4"
         position="0 00 0" 
         rotation="0 0 0"               
         src="yinyang.png"
@@ -160,23 +160,31 @@
         depth="4"
         position="0 0 0" 
         rotation="0 0 0"               
-        src="yinyang.png"
+        src="time.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
         roughness="0.0"                  
-        animation="
-        property: rotation; 
-        from: 0 0 0; 
-        to: 0 360 0; 
-        easing: linear; 
-        dur: 10000; 
-        loop:true"               
+            
         >                 
         </a-box>
 
-
+        <a-box 
+        width="4"
+        height="4"
+        depth="0.4"
+        position="0 0 0" 
+        rotation="0 0 0"               
+        src="whitetime.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+            
+        >                 
+        </a-box>
 
         <!-- !!! Do not remove Marker 1 !!! -->
       </a-marker>  
