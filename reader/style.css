@@ -38,13 +38,23 @@ body{
        color: lavenderblush;
         border: 4px dotted lavenderblush;
         height: 150px;
-        align: center
+        align: center;
+        border-radius: 5px;
+        font-size: 45px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-family: 'dau'; 
+        text-align: center;
+        display: inline-block;
+    }
         width: 350px;
         margin-bottom: 20px;
-        font-size: 45px;
+       
         text-align: center;
         align-items: center;
-        font-family: 'dau'; 
+        
         padding-left: 6px;
         padding-right: 6px;
         padding-top: 3px;
