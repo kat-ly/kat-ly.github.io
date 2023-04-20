@@ -37,7 +37,7 @@ body{
       div.dotted {
        color: lavenderblush;
         border: 4px dotted lavenderblush;
-        height: 150px;
+        height: 200px;
         align: center;
         border-radius: 5px;
         font-size: 45px;
@@ -47,7 +47,7 @@ body{
         padding-bottom: 12px;
         font-family: 'dau'; 
         text-align: center;
-        display: inline-block;
+        display:flex;
     
     }
         
@@ -56,11 +56,7 @@ body{
         text-align: center;
         align-items: center;
         
-        padding-left: 6px;
-        padding-right: 6px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        border-radius: 5px;
+
         display: inline-block;
         
       }
@@ -75,6 +71,7 @@ body{
         }
     div.author{
         font-family: "isen";
+        text-decoration: dotted beige;
         font-size: 20px;
         text-align: center;
         color: azure;
