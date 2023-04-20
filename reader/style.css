@@ -38,7 +38,7 @@ body{
        color: lavenderblush;
         border: 4px dotted lavenderblush;
         height: 200px;
-        align: center;
+        text-align: center;
         border-radius: 5px;
         font-size: 45px;
         padding-left: 6px;
@@ -46,15 +46,15 @@ body{
         padding-top: 12px;
         padding-bottom: 12px;
         font-family: 'dau'; 
-        text-align: center;
+        align-items: center;
         display:flex;
         word-wrap: break-word;
     
     }
         
-        margin-bottom: 20px;
        
-        text-align: center;
+       
+
         align-items: center;
         
 
