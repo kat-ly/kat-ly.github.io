@@ -85,7 +85,7 @@
           depth="2"
           position="0 00 0" 
           rotation="0 0 0"               
-          src="error.png"
+          src="yin.png"
           transparent="true"
           alphaTest= "0.5"            
           env-map="#env"
@@ -176,6 +176,27 @@
         >
         </a-box>
 
+        <a-box
+        width="2"
+        height="0.01"
+        depth="2"
+        position="2 0 2" 
+        rotation="0 0 0"               
+        src="yin.png"
+        transparent="true"
+        alphaTest= "0.5"            
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"   
+        >
+        </a-box>
         <!-- !!! Do not remove Marker 1 !!! -->
       </a-marker>  
 
