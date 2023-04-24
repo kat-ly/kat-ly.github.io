@@ -51,12 +51,8 @@ body{
         display:flex;
         word-wrap: break-word;
         
-    }
-    div.title{
-   
-        }  
  
-    div.author{
+    div.author {
         font-family: "isen";
         font-size: 20px;
         text-align: center;
