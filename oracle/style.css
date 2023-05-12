@@ -1,0 +1,185 @@
+body {
+    background-color:rgb(233, 247, 255);
+    margin:0px;
+    
+}
+
+img {
+    width:100%
+    
+}
+
+@font-face {
+    font-family: "isen";
+    src: url("Isenreg.woff");
+    }
+
+
+div.row {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col{
+outline:2px solid black;
+height:400px;
+
+}
+
+div.menu{
+    position: fixed;
+    font-family: "isen";
+    font-size: 40px;
+    width: 140px;
+height: 40px;
+margin-top: 0px;
+margin-bottom: 8px;
+margin-left: auto;
+margin-right: auto;
+    background-color: lightblue;
+    outline: 2px solid black;
+}
+
+div.textbox {
+   
+    color:rgb(4, 25, 62);
+     border: 2px solid black;
+height: 400px;
+     text-align: center;
+     border-radius: 10px;
+     font-size: 8px;
+     padding-left: 50px;
+     padding-right: 12px;
+     padding-top: 8px;
+     padding-bottom: 16px;
+     margin-top:40px ;
+     margin-left: 30px; 
+     margin-right: 30px;
+     font-family: 'isen'; 
+     align-items: center;
+ 
+     word-wrap: break-word;
+
+IMAGES
+
+div.rainbow {
+    background-image: url(rainbow.jpg);
+    background-size:100%;
+}
+
+div.flowers {
+    background-image: url(flowers.gif);
+
+}
+
+      div.button {
+      
+        background-color: azure;
+        border: 2px solid lightblue;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        position: absolute;
+
+    
+      }
+   
+      div.height200 {
+        height:700px
+    }      
+
+div.height700 {
+    height:700px
+}
+
+div.height1000 {
+    height:1000px
+}
+
+div.width100 {
+    width: 100%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width66 {
+    width:66.666%;
+}
+
+div.width50 {
+    width:50%;
+}
+
+div.width40 {
+    width:40%
+}
+
+div.width33 {
+    width:33.3333%;
+}
+
+div.width25 {
+    width:25%;
+}
+
+div.width20 {
+    width:20%;
+}
+
+
+
+div.bgwhite {
+    background-color:aliceblue;
+}
+
+div.bgpink {
+    
+}
+
+div.coloranimation {
+    background-color: pink;
+    animation: backgroundcolor 3s infinite alternate;
+}
+
+div.coloranimation2 {
+    background-color: lightsteelblue;
+    animation: backgroundcolor 3s infinite alternate;
+}
+
+@keyframes backgroundcolor{
+
+    0% {
+        background-color: lightsteelblue;
+    }
+    100% {
+        background-color: lavenderblush;
+    }
+
+
+}
+
+div.marquee{
+    font-family: "isen";
+    font-size: 15px;
+    border: 1px solid black;
+    background-image: url(rainbow.jpg);
+    background-size:200%;
+}
+
+div.intro{
+    text-align: center;
+    font-family: "isen";
+    font-size: 50px;
+    padding-top: 300px;
+    color: azure;
+    
+}
+
+div.firstrow{
+    text-align: center;
+    font-family: "isen";
+    font-size: 30px;
+}

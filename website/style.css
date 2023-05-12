@@ -1,0 +1,114 @@
+body{
+    background-image: url(sky.gif);
+    background-size: 105%;
+    background-repeat: repeat;
+    font-family: "isen";
+}
+
+@font-face {
+    font-family: "blob";
+    src: url("BLOB-Regular.woff");
+}
+
+@font-face {
+    font-family: "squarevetica";
+    src: url("Squarevetica-Regular.woff");
+}
+
+@font-face {
+        font-family: "mud";
+        src: url("MudClub-FranklintheGoth.woff");
+    }
+
+@font-face {
+    font-family: "isen";
+    src: url("Isenreg.woff");
+    }
+
+  
+@font-face {
+    font-family: "dau";
+    src: url("dau.woff");
+    }  
+
+div.title {
+    font-size: 100px;
+    font-family: "isen";
+    text-align: center;
+    flex-wrap:wrap;
+    border: 1px solid black;
+    margin-top: 150px;
+}   
+
+div.button {
+      
+        padding: 15px 30px;
+        font-size: "isen";
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        margin: 2px 2px;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+
+div.textbox {
+        color:rgb(4, 25, 62);
+         border: 4px dotted black;
+         background-color: aliceblue;
+         height: 200px;
+         text-align: center;
+         border-radius: 10px;
+         font-size: 20px;
+         padding-left: 12px;
+         padding-right: 12px;
+         padding-top: 16px;
+         padding-bottom: 16px;
+         font-family: 'isen'; 
+         align-items: center;
+         display:flex;
+         word-wrap: break-word;
+}
+
+div.marquee {
+    
+    font-family: "isen";
+    font-size: 15px;
+    height: 25px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    background-image: url(rainbow.jpg);
+    background-size:150%;
+    padding-top: 8px;
+}
+
+div.glow {
+    background-color: aliceblue;
+    box-shadow:  0px 0px 50px 3px lavender;
+   
+}
+
+div.image {
+   display: flex;
+   flex-wrap:wrap;
+   border: 0px solid black;
+   margin-top: 15%;
+   margin-left: 30%;
+   margin-right: 30%;
+   align-items: center;
+   justify-content: center;
+}
+
+div.title {
+    display: flex;
+    border: 0px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 50px;
+    font-family: "isen";
+    align-items: center;
+    justify-content: center;
+}
