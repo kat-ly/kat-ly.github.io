@@ -1,6 +1,6 @@
 body {
-    background-color:rgb(0, 0, 0);
-    margin:0px;
+    background-color:white(0, 0, 0);
+    margin:2px;
     
 }
 
@@ -88,23 +88,31 @@ div.rainbow {
     background-size:100%;
 }
 
-div.flowers {
-    background-image: url(flowers.gif);
 
-}
+
 
       div.button {
       
-        background-color: azure;
-        border: 2px solid lightblue;
-        padding: 16px 32px;
-        text-align: center;
-        font-size: 16px;
-        margin: 4px 2px;
-        position: absolute;
-
+     
+       
+            background-color: aliceblue;
+            padding: 12px 25px;
+            width: 125px;
+            font-family: "isen";
+            border-radius: 20px ;
+            text-align: center;
+            font-size: 16px;
+            position: absolute;
+            margin-left: 25%;
+            transform: translate(15%, -5%);
+            display: block;
+           text-decoration: none;
+            box-shadow:  0px 0px 50px 3px rgb(243, 180, 233);
+            transition: all 0.1s ease-in;
+      
+          }
     
-      }
+      
    
       div.height200 {
         height:700px
@@ -112,6 +120,10 @@ div.flowers {
 
 div.height700 {
     height:700px
+}
+
+div.height500 {
+    height:500px
 }
 
 div.height1000 {
@@ -156,9 +168,6 @@ div.bgwhite {
     background-color:aliceblue;
 }
 
-div.bgpink {
-    
-}
 
 div.coloranimation {
     background-color: pink;
@@ -199,6 +208,8 @@ div.marquee {
 
 div.intro{
     text-align: center;
+    background-image: url(rainbow.jpg);
+    background-size:100%;
     font-family: "isen";
     font-size: 50px;
     padding-top: 300px;
@@ -210,4 +221,5 @@ div.firstrow{
     text-align: center;
     font-family: "isen";
     font-size: 30px;
+
 }
