@@ -1,5 +1,5 @@
 body {
-    background-color:white(0, 0, 0);
+    background-color:black;
     margin:2px;
     
 }
@@ -24,8 +24,9 @@ div.col{
 outline:2px solid black;
 border-radius: 25px;
 height:400px;
-margin-top: 1px;
-margin-bottom: 1px;
+margin-top: 1.5px;
+margin-bottom: 1.5px;
+
 
 }
 
@@ -56,8 +57,64 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 25px;
 
+
     outline: 0px solid black;
 }
+
+div.menu3{
+    position: fixed;
+    font-family: "isen";
+    font-size: 40px;
+    width: 140px;
+height: 240px;
+margin-top: 140px;
+margin-bottom: 8px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+
+}
+
+
+div.gradient1 {
+    height: 250px;
+    background-color: #ff8a00;
+    background-image: radial-gradient(circle closest-side, #ff8a00, #e52e71);
+  }
+
+
+  div.gradient2 {
+    height: 250px;
+    background-color: #6b68cb;
+    background-image: radial-gradient(circle closest-side, #6b68cb, #2fbefc);
+  }
+
+  div.gradient3 {
+    height: 250px;
+    background-color: #41bc85;
+    background-image: radial-gradient(circle closest-side, #41bc85, #e6dc4f);
+  }
+
+
+  div.gradient4 {
+    height: 250px;
+    background-color: rgb(36, 199, 235);
+    background-image: radial-gradient(circle closest-side,rgb(36, 199, 235) , #df11b6);
+  }
+
+
+div.gif {
+margin-top: -15%;
+    height:30px;
+    display: flex;
+    flex-wrap:wrap;
+    scale: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+ }
 
 div.textbox {
    
@@ -79,13 +136,6 @@ height: 400px;
  
      word-wrap: break-word;
 
-}
-
-IMAGES
-
-div.rainbow {
-    background-image: url(rainbow.jpg);
-    background-size:100%;
 }
 
 
@@ -115,8 +165,12 @@ div.rainbow {
       
    
       div.height200 {
-        height:700px
-    }      
+        height:200px
+    }    
+    
+    div.height450 {
+        height:450px
+    }  
 
 div.height700 {
     height:700px
@@ -208,7 +262,6 @@ div.marquee {
 
 div.intro{
     text-align: center;
-    background-image: url(rainbow.jpg);
     background-size:100%;
     font-family: "isen";
     font-size: 50px;
