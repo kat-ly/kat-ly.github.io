@@ -1,0 +1,173 @@
+body{
+    font-family: "isen";
+    background: black;
+    margin: 2px;
+    
+}
+
+@font-face {
+    font-family: "blob";
+    src: url("BLOB-Regular.woff");
+}
+
+@font-face {
+    font-family: "squarevetica";
+    src: url("Squarevetica-Regular.woff");
+}
+
+@font-face {
+        font-family: "mud";
+        src: url("MudClub-FranklintheGoth.woff");
+    }
+
+@font-face {
+    font-family: "isen";
+    src: url("Isenreg.woff");
+    }
+
+  
+@font-face {
+    font-family: "dau";
+    src: url("dau.woff");
+    }  
+
+ div.row {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    div.col{
+    outline: 0px solid black;
+    height:50px;
+    font-size: 40px;
+    text-align: justify;
+    font-family: "arial";
+    
+    }
+
+    div.text{
+        padding: 10px 10px 10px 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }  
+
+
+
+div.gif {
+
+    height:30px;
+    margin-top: 0.1%;
+    display: flex;
+    flex-wrap:wrap;
+    scale: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+ }
+
+div.button {
+        background-color: aliceblue;
+        padding: 12px 25px;
+        width: 125px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 20px ;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+       text-decoration: none;
+        box-shadow:  0px 0px 50px 3px rgb(243, 180, 233);
+        transition: all 0.1s ease-in;
+  
+      }
+      
+     a:link { text-decoration: none; }
+    
+    a { 
+        color: lightsteelblue;
+        text-decoration: none;
+        }
+  
+  a:hover {
+   
+    color: rgb(185, 149, 229);
+    text-decoration: none;
+
+  }
+  
+  .button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow:  0px 0px 200px 5px rgb(236, 58, 206);
+    text-decoration: none;
+  }
+      
+
+     
+
+
+
+div.marquee {
+    
+    font-family: "isen";
+    font-size: 15px;
+    height: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    background-image: url(rainbow.jpg);
+    background-size:150%;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+
+
+div.mainbox {
+    
+    font-family: "isen";
+    height: 750px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    background-image: url(sky.gif);
+    direction: alternate;
+    background-size:150%;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+div.blend {
+    mix-blend-mode:multiply;
+    color: rgb(254, 230, 243);
+  
+  }
+
+
+  div.width50 {
+    width:50%;
+}
+
+div.textleft {
+    text-align: left;
+}
+
+div.textright {
+    text-align: right;
+}
+
+div.margintop {
+    margin-top: 600px;
+}

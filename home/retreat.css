@@ -1,0 +1,52 @@
+body {
+
+    background-color: black;
+    background-size: 100%;
+    
+}
+
+div.row {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col{
+outline: 0px solid black;
+height:50px;
+font-size: 40px;
+text-align: justify;
+font-family: "arial";
+
+}
+
+div.intro{
+    font-family: "isen";
+    height: 800px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-image: url(forest1.jpeg);
+    direction: alternate;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8px;
+    margin-bottom: 5px;
+    
+}
+
+div.image{
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 25%;
+    border: 0px solid rgb(255, 5, 5);
+    scale: 100%
+
+}
+audio{
+    opacity: 30%;
+    margin-top: 15%;
+    margin-left: 75%;
+  }
+
