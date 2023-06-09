@@ -83,18 +83,36 @@ div.gradient1 {
   }
 
 
+  div.gradient1:hover {
+    transition: 5s;
+    background-image: radial-gradient(circle closest-side, #7770f6,#e52e71);
+
+  }
+  
+
   div.gradient2 {
     height: 250px;
     background-color: #6b68cb;
     background-image: radial-gradient(circle closest-side, #6b68cb, #2fbefc);
   }
 
+  div.gradient2:hover {
+    transition: 5s;
+    background-image: radial-gradient(circle closest-side, #d9f670,#2fbefc);
+
+  }
+
   div.gradient3 {
     height: 250px;
     background-color: #41bc85;
-    background-image: radial-gradient(circle closest-side, #41bc85, #e6dc4f);
+    background-image: radial-gradient(circle closest-side, #70f6d0, #e6dc4f);
   }
 
+  div.gradient3:hover {
+    transition: 5s;
+    background-image: radial-gradient(circle closest-side, #ff9c4c,#e6dc4f);
+
+  }
 
   div.gradient4 {
     height: 250px;
@@ -102,6 +120,11 @@ div.gradient1 {
     background-image: radial-gradient(circle closest-side,rgb(36, 199, 235) , #df11b6);
   }
 
+  div.gradient4:hover {
+    transition: 5s;
+    background-image: radial-gradient(circle closest-side, #f6e470,#df11b6);
+
+  }
 
 div.gif {
 margin-top: -15%;
@@ -264,6 +287,7 @@ div.intro{
     text-align: center;
     background-size:100%;
     font-family: "isen";
+    background-image: url(sky.gif);
     font-size: 50px;
     padding-top: 300px;
     color: rgb(0, 0, 0);

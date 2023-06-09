@@ -18,3 +18,9 @@ div.intro{
     padding-top: 8px;
     margin-bottom: 5px;
 }
+
+audio{
+    opacity: 30%;
+    margin-top: 50%;
+    margin-left: 65%;
+  }
