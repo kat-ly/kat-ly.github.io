@@ -26,9 +26,11 @@ div.intro{
     margin-right: 2px;
     border: 1.5px solid rgb(0, 0, 0);
     border-radius: 20px;
-    background-image: url(water.jpeg);
+    background-image: url(forest1.jpeg);
     direction: alternate;
     background-size:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 8px;
     margin-bottom: 5px;
     
@@ -39,7 +41,7 @@ div.image{
     margin-left: 45%;
     margin-top: 25%;
     border: 0px solid rgb(255, 5, 5);
-    scale: 120%
+    scale: 100%
 
 }
 audio{
