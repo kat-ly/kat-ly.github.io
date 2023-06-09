@@ -146,15 +146,7 @@ div.mainbox {
 
 
 
-div.image {
-   display: flex;
-   flex-wrap:wrap;
-   border: 0px solid black;
-   
 
-   align-items: center;
-   justify-content: center;
-}
 
 
 div.blend {

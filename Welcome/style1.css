@@ -79,13 +79,13 @@ border-radius: 25px;
 div.gradient1 {
     height: 250px;
     background-color: #ff8a00;
-    background-image: radial-gradient(circle closest-side, #ff8a00, #e52e71);
+    background-image: radial-gradient(circle closest-side, #ff8a00, #fff79e);
   }
 
 
   div.gradient1:hover {
     transition: 5s;
-    background-image: radial-gradient(circle closest-side, #7770f6,#e52e71);
+    background-image: radial-gradient(circle closest-side, #b1adff,#fff79e);
 
   }
   
@@ -93,12 +93,12 @@ div.gradient1 {
   div.gradient2 {
     height: 250px;
     background-color: #6b68cb;
-    background-image: radial-gradient(circle closest-side, #6b68cb, #2fbefc);
+    background-image: radial-gradient(circle closest-side, #6b68cb, #aae6ff);
   }
 
   div.gradient2:hover {
     transition: 5s;
-    background-image: radial-gradient(circle closest-side, #d9f670,#2fbefc);
+    background-image: radial-gradient(circle closest-side, #d9f670,#aae6ff);
 
   }
 
@@ -117,12 +117,12 @@ div.gradient1 {
   div.gradient4 {
     height: 250px;
     background-color: rgb(36, 199, 235);
-    background-image: radial-gradient(circle closest-side,rgb(36, 199, 235) , #df11b6);
+    background-image: radial-gradient(circle closest-side,rgb(36, 199, 235) , #ffa5ed);
   }
 
   div.gradient4:hover {
     transition: 5s;
-    background-image: radial-gradient(circle closest-side, #f6e470,#df11b6);
+    background-image: radial-gradient(circle closest-side, #f6e470,#ffa5ed);
 
   }
 
@@ -187,8 +187,8 @@ height: 400px;
     
       
    
-      div.height200 {
-        height:200px
+      div.height800 {
+        height:800px
     }    
     
     div.height450 {
@@ -273,13 +273,13 @@ div.marquee {
     font-family: "isen";
     font-size: 15px;
     height: 15%;
-    margin-top: 10px;
+    margin-top: 3px;
     border: 1.5px solid black;
     border-radius: 15px;
     background-image: url(rainbow.jpg);
     background-size:150%;
     padding-top: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 
