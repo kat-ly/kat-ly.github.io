@@ -29,8 +29,8 @@ height: 400px;
      padding-top: 8px;
      padding-bottom: 16px;
      margin-top:40px ;
-     margin-left: 60px; 
-     margin-right: 60px;
+     margin-left: 50px; 
+     margin-right: 50px;
 
     
  
@@ -43,9 +43,10 @@ div.intro{
     text-align: center;
     background-size:110%;
     font-family: "isen";
-    background-image: url(sky.gif);
+    background-image: ;
     font-size: 30px;
     color: rgb(0, 0, 0);
+    background-color: aliceblue;
     
 }
 

@@ -119,25 +119,14 @@ div.gradient1 {
 
   }
 
+
   div.gradient3 {
-    height: 250px;
-    background-color: #41bc85;
-    background-image: radial-gradient(circle closest-side, #70f6d0, #e6dc4f);
-  }
-
-  div.gradient3:hover {
-    transition: 5s;
-    background-image: radial-gradient(circle closest-side, #ff9c4c,#e6dc4f);
-
-  }
-
-  div.gradient4 {
     height: 250px;
     background-color: rgb(36, 199, 235);
     background-image: radial-gradient(circle closest-side,rgb(36, 199, 235) , #ffa5ed);
   }
 
-  div.gradient4:hover {
+  div.gradient3:hover {
     transition: 5s;
     background-image: radial-gradient(circle closest-side, #f6e470,#ffa5ed);
 
@@ -253,27 +242,21 @@ div.bgwhite {
     background-color:aliceblue;
 }
 
-
-div.coloranimation {
-    background-color: pink;
-    animation: backgroundcolor 3s infinite alternate;
+div.text1{
+    opacity: 0;
+    transition: all 0.5s;
+    padding-top: 250px;
+}
+div.gradient1:hover div.text1{
+    opacity: 1;
 }
 
-div.coloranimation2 {
-    background-color: lightsteelblue;
-    animation: backgroundcolor 3s infinite alternate;
+div.gradient2:hover div.text1{
+    opacity: 1;
 }
 
-@keyframes backgroundcolor{
-
-    0% {
-        background-color: lightsteelblue;
-    }
-    100% {
-        background-color: lavenderblush;
-    }
-
-
+div.gradient3:hover div.text1{
+    opacity: 1;
 }
 
 div.marquee {
