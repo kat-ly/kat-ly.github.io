@@ -45,7 +45,7 @@ a:link {
   }
 
 a:hover {
-    color: hotpink;
+    color: rgb(74, 165, 255);
   }
 
 
@@ -60,7 +60,7 @@ margin-top: 0px;
 margin-bottom: 8px;
 margin-left: auto;
 margin-right: auto;
-    background-color: lightblue;
+    background-color: rgb(196, 237, 255);
     outline: 2px solid black;
     border-radius: 25px;
 }
@@ -76,10 +76,11 @@ margin-bottom: 8px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 25px;
-
-
-    outline: 0px solid black;
+outline: 0px solid black;
 }
+
+
+
 
 div.menu3{
     position: fixed;
@@ -96,6 +97,35 @@ border-radius: 25px;
 }
 
 
+div.right {
+    font-size:18px;
+    font-family: "isen";
+    width:19%;
+    text-align: left;
+    height:100px;
+    overflow:scroll;
+    padding:20px;
+    box-shadow:5px 5px 5px rgb(178, 223, 255);
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 20px;
+    right:0;
+    z-index: 10;
+    transition:1s;  
+    filter: blur(2px);
+    transition: 0.5s;
+
+  }
+
+
+
+  div.right:hover {
+    z-index:20;
+    height:55%;
+    transition:1s;
+    filter: blur(0px);
+  }
+
 div.gradient1 {
     height: 250px;
     background-color: #ff8a00;
@@ -104,8 +134,8 @@ div.gradient1 {
 
 
   div.gradient1:hover {
-    transition: 5s;
-    background-image: radial-gradient(circle closest-side, #b1adff,#fff79e);
+    transition: all 1s;
+    background-image: radial-gradient(circle closest-side, #addeff,#fff79e);
 
   }
   
@@ -117,7 +147,7 @@ div.gradient1 {
   }
 
   div.gradient2:hover {
-    transition: 5s;
+    transition: all 1s;
     background-image: radial-gradient(circle closest-side, #d9f670,#aae6ff);
 
   }
@@ -130,7 +160,7 @@ div.gradient1 {
   }
 
   div.gradient3:hover {
-    transition: 5s;
+    transition: all;
     background-image: radial-gradient(circle closest-side, #f6e470,#ffa5ed);
 
   }
@@ -139,7 +169,7 @@ div.gradient1 {
   div.gradient4 {
     height: 250px;
     background-color: #6b68cb;
-    background-image: radial-gradient(circle closest-side, #aae6ff, #e5e4ff);
+    background-image: radial-gradient(circle closest-side ,#ffe6f9, #fffeaf, rgb(196, 237, 255));
   }
 
 div.gif {
