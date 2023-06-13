@@ -15,16 +15,18 @@ margin-top: 1.5px;
 margin-bottom: 1.5px;
 }
 
+
+
 div.gradient4 {
     height: 250px;
     background-color: #6b68cb;
-    background-image: radial-gradient(circle closest-side, #ffee8a, #ff6d5a);
+    background-image: radial-gradient(circle closest-side, #ffee8a, #ffb685);
   }
 
 div.textbox {
     color:rgb(255, 255, 255);
      border: 2px solid rgb(255, 255, 255);
-     font-family: "isen"; 
+     font-family: "helvetica neue"; 
 height: 400px;
      text-align: center;
      border-radius: 25px;
@@ -43,12 +45,11 @@ height: 400px;
 
 div.intro{
     text-align: center;
-    background-size:110%;
     font-family: "isen";
     font-size: 40px;
     color: white;
     background-color: aliceblue;
-margin-top: auto;
+
 }
 
 div.button {   
