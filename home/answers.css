@@ -15,10 +15,15 @@ margin-top: 1.5px;
 margin-bottom: 1.5px;
 }
 
+div.gradient4 {
+    height: 250px;
+    background-color: #6b68cb;
+    background-image: radial-gradient(circle closest-side, #ffee8a, #ff8e5a);
+  }
+
 div.textbox {
-   
-    color:rgb(4, 25, 62);
-     border: 2px solid black;
+    color:rgb(255, 255, 255);
+     border: 2px solid rgb(255, 255, 255);
      font-family: "isen"; 
 height: 400px;
      text-align: center;
@@ -31,27 +36,24 @@ height: 400px;
      margin-top:40px ;
      margin-left: 50px; 
      margin-right: 50px;
-
-    
- 
      word-wrap: break-word;
-
 }
+
 
 
 div.intro{
     text-align: center;
     background-size:110%;
     font-family: "isen";
-  
-    font-size: 30px;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: white;
     background-color: aliceblue;
-    
+margin-top: auto;
 }
 
 div.button {   
     background-color: aliceblue;
+    color: black;
     padding: 12px 25px;
     width: 125px;
     font-family: "isen";
@@ -59,7 +61,7 @@ div.button {
     text-align: center;
     font-size: 16px;
     position: absolute;
-    margin-left: 50%;
+    margin-left: 45%;
     display: block;
    text-decoration: none;
     box-shadow:  0px 0px 50px 3px rgb(243, 180, 233);
