@@ -18,7 +18,7 @@ margin-bottom: 1.5px;
 div.gradient4 {
     height: 250px;
     background-color: #6b68cb;
-    background-image: radial-gradient(circle closest-side, #ffee8a, #ff8e5a);
+    background-image: radial-gradient(circle closest-side, #ffee8a, #ff6d5a);
   }
 
 div.textbox {
@@ -84,4 +84,15 @@ div.width100 {
 
 div.height800 {
     height:800px
+}
+
+div.backbutton{
+    align-items: right;
+    scale: 35%;
+    width: 50px;
+    height: 50px;
+    margin-top: -60px;
+    background-color: rgb(214, 214, 255);
+    box-shadow:  0px 0px 100px 2px rgb(236, 58, 206);
+    border-radius: 100%;
 }

@@ -1,6 +1,7 @@
 body {
 
-    background-color: black;
+    background-image: radial-gradient(circle closest-side, #0084ff, #041800);
+
     background-size: 100%;
     
 }
@@ -24,7 +25,7 @@ div.intro{
     height: 800px;
     margin-left: 2px;
     margin-right: 2px;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 0solid rgb(0, 0, 0);
     border-radius: 20px;
     background-image: url(forest1.jpeg);
     direction: alternate;
